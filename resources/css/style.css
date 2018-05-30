@@ -1,0 +1,523 @@
+/* Universal Styles */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.1;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  background-color: rgb(233,78,27);
+  width: 100%;
+  align-items: center;
+  height: 6rem;
+  z-index: 10;
+  position: fixed;
+}
+
+header .logo {
+  padding-left: 10rem;
+}
+
+.logo img {
+  height: 5.1875rem;
+  margin-left: 4.5rem;
+}
+
+nav ul {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+.desktop-menu {
+  margin-left: 16rem;
+}
+
+.desktop-menu a {
+  display: flex;
+  color: rgb(255,255,255);
+  padding-left: 1rem;
+  margin: 6rem 3rem;
+  align-items: center;
+  letter-spacing: 1px;
+  transition-property: color;
+  transition-duration: 50ms;
+}
+
+.desktop-menu a:hover {
+  color: #05c944;
+}
+
+.checkout-menu a {
+  font-size: .875rem;
+  padding-left: 1rem;
+  margin: atuo 4rem;
+  color: rgb(255,255,255);
+  float: right;
+  border-right: 1px solid #302a2a;
+  padding-right: 1rem;
+  transition-property: text-decoration;
+  transition-duration: 50ms;
+}
+
+.checkout-menu a:hover {
+  text-decoration: underline;
+}
+
+.checkout-menu {
+  margin-left: 12rem;
+}
+
+/* Banner section */
+
+.main-banner {
+  background-image: url("../../resources/images/hero.jpg");
+  background-repeat: no-repeat;
+  height:50rem;
+  width: 87.5rem;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.flex-container {
+  max-width: 36.25rem;
+  margin: auto;
+}
+
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 22.375rem;
+  top: 7rem;
+  position: relative;
+}
+
+.banner p {
+  font-family: "Playfair+Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding: 3rem;
+  text-align: center;
+}
+
+.buttons {
+  max-width: 1400px;
+  margin: auto;
+  transition-property: background-color;
+  transition-duration: 350ms;
+}
+
+.Register-button {
+  margin-top: 10rem;
+  padding: 1.4375rem 1rem;
+  background-color: #4a4a4a;
+  color: white;
+  width: 40%;
+  text-align: center;
+  float: left;
+  border-radius: 3px;
+}
+
+.SignIn-button {
+  margin-top: 10rem;
+  padding: 1.4375rem 1rem;
+  background-color: #4a4a4a;
+  color: white;
+  width: 40%;
+  text-align: center;
+  float: right;
+  border-radius: 3px;
+}
+
+.buttons :hover {
+  background-color: rgb(97, 97, 97);
+}
+
+
+.buttons a {
+  font-family: "Playfair+Display", serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  transition-property: background-color;
+  transition-duration: 350ms;
+}
+
+.buttons a:hover {
+  color: #d9d8d8;
+}
+
+/* How It Works section */
+
+#How {
+  display: flex;
+  width: 1400px;
+  padding-top: 2.9375rem;
+  margin: auto;
+}
+
+#How h1 {
+  font-family: "Playfair+Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgb(119, 179, 174);
+  margin: auto;
+}
+
+.container-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1400px;
+  padding-top: .625rem;
+  margin: auto;
+  margin-bottom: 4.5rem;
+}
+
+.item {
+  width: 22.5%;
+  margin-right: 4.5rem;
+  margin-left: 4rem;
+}
+
+.item img {
+  width: 18.75rem;
+  height: 15.625rem;
+  display: block;
+  margin: auto;
+}
+
+.item h3 {
+  font-family: "Playfair+Display", serif;
+  font-weight: 700;
+  color: rgb(119, 179, 174);
+  font-size: 1.125rem;
+  letter-spacing: .5px;
+  padding-top: 2.5rem;
+}
+
+.item p {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+  letter-spacing: .5px;
+  padding-top: 1.6rem;
+  line-height: 1.25;
+}
+
+/* Companies section */
+
+#Companies {
+  display: flex;
+  width: 1400px;
+  padding-top: 4.0625rem;
+  margin: auto;
+  background-color: rgb(68, 184, 175);
+}
+
+#Companies h1 {
+  font-family: "Playfair+Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  margin: auto;
+  margin-bottom: 3.375rem;
+}
+
+.container-companies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1400px;
+  padding-top: .625rem;
+  margin: auto;
+  background-color: rgb(68, 184, 175);
+}
+
+.companies {
+  display: flex;
+}
+
+.companies img {
+  padding-left: 2.25rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  width:11.25rem;
+  height: 7.3125rem;
+}
+
+/* Quotes section */
+
+#quotes {
+  display: flex;
+  width: 1400px;
+  padding-top: 3.9375rem;
+  margin: auto;
+}
+
+#quotes h1 {
+  font-family: "Playfair+Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgb(119, 179, 174);
+  margin: auto;
+}
+
+.quotes-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1400px;
+  padding-top: .625rem;
+  margin: auto;
+  display: flex;
+  margin-bottom: 4.5rem;
+}
+
+.quotes-section .container  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1400px;
+  padding-top: .625rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 7.5rem;
+}
+
+.quotes-container {
+  width: 24rem;
+  height: 35rem;
+  border-radius: 12px;
+  border-style: solid;
+  border: 9px solid rgb(233, 78, 27);
+  margin-top: 19.1875rem;
+  margin-left: 2rem;
+  margin: auto;
+  margin-right:2rem;
+}
+
+.profile-pic img {
+  margin: auto;
+  display: flex;
+  margin-bottom: 3rem;
+  padding-bottom: -3rem;
+  margin-top: -6rem;
+}
+
+.profile {
+  margin: auto;
+  width: 22rem;
+}
+
+.profile h3 {
+  font-family: "Playfair+Display", serif;
+  font-size: 1.5rem;
+  color: rgb(233, 78, 27);
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+}
+
+.profile p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.0625rem;
+  font-style: italic;
+  padding: 1.5rem 3.9375rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+/* Footer section */
+
+.footer {
+  display: flex;
+  margin: auto;
+  background-color: rgb(233,78,27);
+  padding-bottom: 5rem;
+}
+
+.footer-logo {
+  padding-left: 10rem;
+  padding-bottom: 3.75rem;
+  padding-top: 4rem;
+}
+
+.footer-logo img {
+  height: 5.1875rem;
+  margin-left: 4.5rem;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu1 {
+  padding-left: 8.125rem;
+  padding-top: 5rem;
+}
+
+.footer-menu1 h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+  padding-bottom: 2.8125rem;
+  letter-spacing: .5px;
+}
+
+.footer-menu1 a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  transition-property: text-decoration;
+  transition-duration: 50ms;
+}
+
+.footer-menu1 a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu1 li {
+  padding-top: 1.125rem;
+}
+
+.footer-menu2 {
+  padding-left: 8.4375rem;
+  padding-top: 5rem;
+}
+
+.footer-menu2 h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+  padding-bottom: 2.8125rem;
+  letter-spacing: .5px;
+}
+
+.footer-menu2 a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  transition-property: text-decoration;
+  transition-duration: 50ms;
+}
+
+.footer-menu2 a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu2 li {
+  padding-top: 1.125rem;
+}
+
+.footer-menu3 {
+  padding-left: 8.4375rem;
+  padding-top: 5rem;
+}
+
+.footer-menu3 h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+  padding-bottom: 2.8125rem;
+
+}
+
+.footer-menu3 a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  letter-spacing: .5px;
+  transition-property: text-decoration;
+  transition-duration: 50ms;
+}
+
+.footer-menu3 a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu3 li {
+  padding-top: 1.125rem;
+}
+
+.email {
+  padding-left: 8.125rem;
+  padding-top: 5rem;
+}
+
+.email h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+  letter-spacing: .25px;
+}
+
+.email-btn {
+  padding: 1rem 1rem;
+  background-color: #4a4a4a;
+  border: 3px solid rgb(255, 255, 255);
+  margin-top: 2rem;
+}
+
+.email-btn h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: rgb(108,108,108);
+  font-style: italic;
+}
+
+.social {
+  padding-top: 3rem;
+}
+
+.social span {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+.social-icons {
+  padding-top: 1.5rem;
+}
+
+.social-icons li {
+  padding-right: 2rem;
+}
+
+.bottom-row {
+  display: flex;
+  padding-top: 2rem;
+  font-size: 0.8rem;
+  /* border-top: 1px solid white; */
+
+
+}
+
+.copy {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: #000000;
+  margin: auto;
+}
